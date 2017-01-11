@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "experimentalDecorators": true,
+        "lib": [
+            "es6",
+            "dom"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+        "useWebpackText": true
+    }
+}
