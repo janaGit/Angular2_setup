@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Angular 2 setup using webpack and a node.js express server",
   "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "dependencies": {
     "@angular/common": "^2.4.2",
     "@angular/compiler": "^2.4.2",
